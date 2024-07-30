@@ -1,5 +1,7 @@
 Functionality of a project:
+
 ✔ Authentication
+
     ♦ Session Authentication
        Usage
        Login on /api/auth/login/
@@ -14,22 +16,27 @@ Functionality of a project:
 
 
 ✔ Creating restaurant
+
     api/restaurants/ - all restaurants list (read-only)
     api/restaurants/ - create and view restaurants
     api/restaurants/<int:pk>/ - restaurant detail with Update and Delete functions (Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS)
 
 ✔ Uploading menu for restaurant
+
     api/menu/ - all menu list (read-only)
     api/menu/create/ -  create and view menu 
     api/menu/<int:pk>/ - menu detail with Update and Delete functions (Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS)
 
 ✔ Creating employee
+
     api/employees/ - all employee list (read-only)
     api/employees/create/ - create and view employees
     api/employees/<int:pk>/ - employee detail with Update and Delete functions (Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS)
 
 ✔ Getting current day menu
+
     api/menu/today/ - getting current day menu
 
 ✔ POSTGRESQL used
+
     if do not work -> uncomment sqlite3 database in inforse_py_task/settings.py and comment POSTGRESQL section
